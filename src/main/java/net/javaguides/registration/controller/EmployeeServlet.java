@@ -13,10 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import net.javaguides.registration.dao.EmployeeDao;
 import net.javaguides.registration.model.Employee;
 
-/**
- * @email Ramesh Fadatare
- */
-
 @WebServlet("/register")
 public class EmployeeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
