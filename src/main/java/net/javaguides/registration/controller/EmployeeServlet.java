@@ -17,7 +17,7 @@ import net.javaguides.registration.model.Employee;
  * @email Ramesh Fadatare
  */
 
-@WebServlet("/")
+@WebServlet("/register")
 public class EmployeeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     
