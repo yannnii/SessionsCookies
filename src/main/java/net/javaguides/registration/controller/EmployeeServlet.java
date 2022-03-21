@@ -1,7 +1,6 @@
 package net.javaguides.registration.controller;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -41,7 +40,6 @@ public class EmployeeServlet extends HttpServlet {
         String lastName = request.getParameter("lastName");
         String username = request.getParameter("username");
         String pass = request.getParameter("pass");
-        String repass = request.getParameter("repass");
         String email = request.getParameter("email");
         String gender = request.getParameter("gender");
         String country = request.getParameter("country");
